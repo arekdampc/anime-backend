@@ -1,7 +1,7 @@
 1. needed node
 2. needed nodemon
 
-to run (terminal): nodemon .\serves.js
+to run (terminal): nodemon .\server.js
 
 then u can use f.e Thunder client and shoot to database:
 
