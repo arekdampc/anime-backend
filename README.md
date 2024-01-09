@@ -1,5 +1,5 @@
-needed node
-needed nodemon
+1. needed node
+2. needed nodemon
 
 to run (terminal): nodemon .\serves.js
 
