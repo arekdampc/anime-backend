@@ -1,3 +1,5 @@
+NOTE: on branch fullstack-anime, there's a working version with Frontend written with React, feel free to use it
+
 1. needed node
 2. needed nodemon
 
