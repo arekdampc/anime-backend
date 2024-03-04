@@ -4,6 +4,8 @@ require('dotenv').config();
 // importuję expresa
 const express = require('express');
 
+const cors = require('cors');
+
 // tworzę instancję expresa
 const app = express();
 
@@ -19,6 +21,7 @@ app.use(morgan('combined'));
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
+app.use(cors());
 // routy
 const animeRoutes = require('./api/routes/animes');
 app.use('/animes', animeRoutes);
